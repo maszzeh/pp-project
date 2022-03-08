@@ -1,14 +1,17 @@
 @media only screen and (max-width: 1200px) {
-    nav ul li{
+    nav ul li {
         padding: 0 20px;
     }
-    .header-copy h1{
+
+    .header-copy h1 {
         font-size: 6.5rem;
     }
-    .header-copy .header-ket{
+
+    .header-copy .header-ket {
         width: 95%;
     }
-  }
+}
+
 
 @media only screen and (max-width: 910px){
     nav ul{
@@ -16,52 +19,64 @@
     }
 }
 
-@media only screen and (max-width: 707px){
+@media only screen and (max-width: 707px) {
+
     /*----start testimoni---- */
-    .testimoni-copy{
+    .testimoni-copy {
         top: -15%;
     }
-     /*----end testimoni---- */
+
+    /*----end testimoni---- */
 }
 
-  @media only screen and (max-width: 429px) {
-      /* ---- start merk--- */
-      .merk{
-          padding-bottom: 30px;
-      }
-      .merk-wrapper{
+@media only screen and (max-width: 429px) {
+
+    /* ---- start merk--- */
+    .merk {
+        padding-bottom: 30px;
+    }
+
+    .merk-wrapper {
         justify-content: center;
         flex-wrap: wrap;
     }
-    .merk-wrapper p{
+
+    .merk-wrapper p {
         width: 50%;
         margin-bottom: 20px;
         text-align: center;
     }
-      /* ---- end merk--- */
 
-      /* ----start question-bikey---- */
-      .question-wrapper{
-          flex-direction: column;
-      }
-      .question-bikey{
-          width: 100%;
-          padding-bottom: 80px;
-      }
-      .reason-bikey{
-          width: 100%;
-      }
-      /* ----end question-bikey---- */
+    /* ---- end merk--- */
 
-      /*----start testimoni---- */
-      .testimoni-copy{
-          top: -15%;
-      }
-      .testimoni-copy .quote-copy{
-          font-size: 16px;
-      }
-      .testimoni-skill{
-          width: var(--width-85);
-      }
-       /*----end testimoni---- */
-  }
+    /* ----start question-bikey---- */
+    .question-wrapper {
+        flex-direction: column;
+    }
+
+    .question-bikey {
+        width: 100%;
+        padding-bottom: 80px;
+    }
+
+    .reason-bikey {
+        width: 100%;
+    }
+
+    /* ----end question-bikey---- */
+
+    /*----start testimoni---- */
+    .testimoni-copy {
+        top: -15%;
+    }
+
+    .testimoni-copy .quote-copy {
+        font-size: 16px;
+    }
+
+    .testimoni-skill {
+        width: var(--width-85);
+    }
+
+    /*----end testimoni---- */
+}
