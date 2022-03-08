@@ -232,7 +232,7 @@ nav ul li a:hover{
     margin-right: 10px;
 }
 .testimoni-skill-blue{
-    background-color: var(--color-header);
+    background-color: #2c2e46;
 }
 .testimoni-skill-green{
     background-color: rgba(14, 127, 131, 200);
