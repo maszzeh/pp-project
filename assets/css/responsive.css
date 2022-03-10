@@ -10,6 +10,9 @@
     .header-copy .header-ket {
         width: 95%;
     }
+    .merk-wrapper img{
+        width: 125px;
+    }
 }
 
 
@@ -22,14 +25,28 @@
 @media only screen and (max-width: 707px) {
 
     /*----start testimoni---- */
-    .testimoni-copy {
-        top: -15%;
-    }
-
+    
     /*----end testimoni---- */
 }
 
 @media only screen and (max-width: 429px) {
+    .header-content{
+        width: 85%;
+        padding: 100px 0 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header-copy{
+        width: 100%;   
+    }
+    .header-copy h1{
+        font-size: 5rem;
+    }
+
+    .line-since{
+        width: 8%;
+    }
 
     /* ---- start merk--- */
     .merk {
@@ -40,11 +57,8 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-
-    .merk-wrapper p {
-        width: 50%;
-        margin-bottom: 20px;
-        text-align: center;
+    .merk-wrapper img{
+        margin: 0 auto 20px;
     }
 
     /* ---- end merk--- */
@@ -66,10 +80,6 @@
     /* ----end question-bikey---- */
 
     /*----start testimoni---- */
-    .testimoni-copy {
-        top: -15%;
-    }
-
     .testimoni-copy .quote-copy {
         font-size: 16px;
     }
@@ -77,6 +87,8 @@
     .testimoni-skill {
         width: var(--width-85);
     }
-
+    .testimoni-wrapper h2{
+        font-size: 1.5rem;
+    } 
     /*----end testimoni---- */
 }
