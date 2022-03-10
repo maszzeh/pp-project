@@ -1,24 +1,30 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    font-family: Inter, 'san-serif';
 }
-:root{
+
+:root {
     --color-header: #212336;
     --color-white: #fff;
     --color-black: #000;
     --width-85: 85%;
 }
-.btn{
+
+.btn {
     display: inline-block;
     padding: 10px 25px;
     border-radius: 20px;
     text-decoration: none;
 }
-.circle{
+
+.circle {
     border-radius: 50%;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -28,7 +34,7 @@ header{
 }
 
 /* ----navbar----- */
-nav{
+nav {
     width: 85%;
     height: 65px;
     padding: 20px 0 20px 0;
@@ -36,86 +42,104 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-nav ul{
+
+nav ul {
     padding-left: 50px;
     display: flex;
     align-items: center;
     list-style: none;
 }
-nav ul li{
+
+nav ul li {
     padding: 0 30px;
     color: var(--color-white);
     text-decoration: none;
 }
-nav ul li a{
+
+nav ul li a {
     color: var(--color-white);
     text-decoration: none;
     opacity: 0.7;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     opacity: 1;
 }
-.nav-button{
+
+.nav-button {
     color: var(--color-white);
     border: 1px solid var(--color-white);
 }
-.nav-button:hover{
+
+.nav-button:hover {
     color: var(--color-header);
     background-color: var(--color-white);
 }
+
 /* ----end navbar---- */
 
 /* ----start header content---- */
-.header-content{
+.header-content {
     width: 85%;
     padding: 100px 0 100px;
     display: flex;
     justify-content: center;
 }
-.header-copy{
-    width: 50%;   
+
+.header-copy {
+    width: 50%;
 }
-.header-since{
+
+.header-since {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: rgb(199, 196, 51);
 }
-.line-since{
+
+.line-since {
     display: inline-block;
     width: 3%;
 }
-.header-since p{
+
+.header-since p {
     padding-left: 10px;
 }
-.header-copy h1{
+
+.header-copy h1 {
     font-size: 7rem;
     font-weight: bold;
 }
-.header-copy .header-ket{
+
+.header-copy .header-ket {
     width: 82%;
     padding: 20px 0 40px 0;
 }
-.btn-register{
+
+.btn-register {
     color: var(--color-header);
     background-color: var(--color-white);
     margin-right: 10px;
 }
-.btn-sign{
+
+.btn-sign {
     color: var(--color-white);
 }
-.btn-register:hover{
+
+.btn-register:hover {
     filter: blur(0.4px);
     box-shadow: rgba(255, 255, 255, 0.1) 0px 8px 20px, rgba(255, 255, 255, 0.1) 0px 16px 50px, rgba(255, 255, 255, 0.1) 0px 24px 40px;
 }
-.header-img{
+
+.header-img {
     width: 50%;
 }
+
 /* ----end header content---- */
 
 
 /* ----start merk---- */
-.merk{
+.merk {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -123,52 +147,62 @@ nav ul li a:hover{
     background-color: rgb(255, 196, 0);
     color: var(--color-black);
 }
-.merk-wrapper{
+
+.merk-wrapper {
     width: var(--width-85);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.merk-wrapper p{
+
+.merk-wrapper p {
     font-weight: bold;
     font-size: 24px;
 }
+
 /* ----end merk---- */
 
 /* ----start question-bikey---- */
-.why-bikey{
+.why-bikey {
     width: 100%;
     padding: 125px 0 160px;
     display: flex;
     justify-content: center;
 }
-.question-wrapper{
+
+.question-wrapper {
     width: var(--width-85);
     display: flex;
     justify-content: center;
 }
-.question-bikey{
+
+.question-bikey {
     width: 50%;
 }
-.reason-bikey{
+
+.reason-bikey {
     width: 50%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.reason-wrapper{
+
+.reason-wrapper {
     width: 50%;
     margin-bottom: 60px;
 }
-.reason-circle{
+
+.reason-circle {
     margin-bottom: 10px;
 }
-.circle-green{
+
+.circle-green {
     background-color: rgb(14, 127, 131);
     width: 30px;
     height: 30px;
 }
-.circle-yellow{
+
+.circle-yellow {
     background-color: rgb(255, 196, 0);
     width: 10px;
     height: 10px;
@@ -177,21 +211,25 @@ nav ul li a:hover{
     left: 29px;
     z-index: 1;
 }
-.reason-title{
+
+.reason-title {
     font-size: 1.7rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.reason-wrapper p{
+
+.reason-wrapper p {
     width: 95%;
 }
-.reason-ket{
+
+.reason-ket {
     color: rgba(0, 0, 0, 0.6)
 }
+
 /* -----end question-bikey----  */
 
 /* ---- start testimoni---- */
-.testimoni{
+.testimoni {
     width: 100%;
     padding: 0 0 80px;
     display: flex;
@@ -200,7 +238,8 @@ nav ul li a:hover{
     color: var(--color-white);
     text-align: center;
 }
-.testimoni-copy{
+
+.testimoni-copy {
     width: var(--width-85);
     padding: 50px 40px;
     font-size: 20px;
@@ -213,49 +252,60 @@ nav ul li a:hover{
     position: relative;
     top: -100px;
 }
-.testimoni-copy .quote-copy{
+
+.testimoni-copy .quote-copy {
     opacity: 0.6;
     font-style: italic;
 }
-.testimoni-copy .writer-quote{
+
+.testimoni-copy .writer-quote {
     font-weight: bold;
     margin-top: 20px;
 }
-.testimoni .testimoni-wrapper{
+
+.testimoni .testimoni-wrapper {
     width: var(--width-85);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.testimoni-skill{
+
+.testimoni-skill {
     width: 25%;
     border-radius: 5px;
     padding: 80px 20px 65px;
     margin: 0 10px 40px 10px;
 }
-.testimoni-skill-blue{
+
+.testimoni-skill-blue {
     background-color: #2c2e46;
 }
-.testimoni-skill-green{
+
+.testimoni-skill-green {
     background-color: rgba(14, 127, 131, 200);
 }
-.testimoni-skill .fa-solid{
+
+.testimoni-skill .fa-solid {
     font-size: 2rem;
 }
-.testimoni-skill h3{
+
+.testimoni-skill h3 {
     margin: 45px 0 20px;
     font-size: 2rem;
-} 
-.testimoni-wrapper h2{
+}
+
+.testimoni-wrapper h2 {
     width: 90%;
     display: inline-block;
     text-align: center;
     font-size: 2rem;
-} 
-.testimoni-skill p{
+}
+
+.testimoni-skill p {
     opacity: 0.7;
     width: 60%;
     text-align: center;
     display: inline-block;
 }
+
 /* ----end testimoni----- */
