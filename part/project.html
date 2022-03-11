@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="../assets/css/project.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
     <script src="https://kit.fontawesome.com/1589727c0c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header>
         <nav class="navbar">
             <p class="nav-logo">ARUL BALAP</p>
             <ul class="nav-list">
                 <li class="nav-item active"><a href="">View Demo</a></li>
-                <li class="nav-item active"><a href="">Pricing</a></li>
-                <li class="nav-item active"><a href="">How Bikey Works</a></li>
-                <li class="nav-item active"><a href="">Testimoni</a></li>
+                <li class="nav-item active"><a href="#merk">Pricing</a></li>
+                <li class="nav-item active"><a href="#why-bikey">How Bikey Works</a></li>
+                <li class="nav-item active"><a href="#testimoni">Testimoni</a></li>
             </ul>
+            <span class="toggle"><i class="fa-solid fa-sliders"></i></span>
             <div class="nav-btn-wrapper">
                 <a class="btn nav-button" href="">Dashboard App</a>
             </div>
@@ -51,20 +52,18 @@
 
     </header>
 
-    <div class="partner">
-        <h1>Partner Kami</h1>
-        <div class="merk">
-            <div class="merk-wrapper">
-                <img src="../img/tokopedia.png" alt="" width="200px">
-                <img src="../img/Logo_BUMN_Untuk_Indonesia_2020.svg" alt="" width="200px">
-                <img src="../img/bukalapak-logodownload-38794.png" alt="" width="200px">
-                <img src="../img/Logo BliBli Online Mall (PNG-2160p) - FileVector69.png" alt="" width="200px">
-                <img src="../img/shopee-logo-31408.png" alt="" width="200px">
-            </div>
+
+    <div id="merk" class="merk">
+        <div class="merk-wrapper">
+            <img src="../img/tokopedia.png" alt="" width="200px">
+            <img src="../img/Logo_BUMN_Untuk_Indonesia_2020.svg" alt="" width="200px">
+            <img src="../img/bukalapak-logodownload-38794.png" alt="" width="200px">
+            <img src="../img/Logo BliBli Online Mall (PNG-2160p) - FileVector69.png"  alt="" width="200px">
+            <img src="../img/shopee-logo-31408.png" alt="" width="200px">
         </div>
     </div>
 
-    <div class="why-bikey">
+    <div id="why-bikey" class="why-bikey">
         <div class="question-wrapper">
             <div class="question-bikey">
                 <h2>Why Bikey?</h2>
@@ -118,7 +117,7 @@
         </div>
     </div>
 
-    <div class="testimoni">
+    <div id="testimoni" class="testimoni">
         <div class="testimoni-wrapper">
             <div class="testimoni-copy">
                 <p class="quote-copy">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptate
@@ -149,7 +148,7 @@
                 adipisicing elit.</h2>
         </div>
     </div>
-
+    <script src="./project.js"></script>
 </body>
 
 </html>
