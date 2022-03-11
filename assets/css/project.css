@@ -75,7 +75,11 @@ nav ul li a:hover {
     color: var(--color-header);
     background-color: var(--color-white);
 }
-
+.toggle{
+    display: none;
+    font-size: 1.5rem;
+    float: right;
+}
 /* ----end navbar---- */
 
 /* ----start header content---- */
